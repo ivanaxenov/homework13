@@ -28,7 +28,7 @@ public class Book {
     }
 
     public String toString() {
-        return title + author + " " + year;
+        return title + author.toString() + " " + year;
     }
 
     public boolean equals(Object o) {
